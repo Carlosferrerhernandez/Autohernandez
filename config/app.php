@@ -158,6 +158,12 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
         /*
+        *   Sweet Alert
+        */
+
+        Softon\SweetAlert\SweetAlertServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -221,6 +227,12 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+
+        /*
+        *   Sweet Alert
+        */
+
+        'SWAL' => Softon\SweetAlert\Facades\SWAL::class,
 
     ],
 
