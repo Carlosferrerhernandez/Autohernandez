@@ -1,14 +1,5 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-# Aviacion 
-This repo is implementaions of SENNOVA Regional Altántico (SENA).
+# AutoHernandez 
+This repo is implementaions of AutoHernandez de la Costa (Barranquilla).
 
 ## Requerimientos
 * PHP >= 7.1.3
@@ -19,7 +10,7 @@ This repo is implementaions of SENNOVA Regional Altántico (SENA).
 
 ### Installation ###
 
-* `git clone https://github.com/Carlosferrerhernandez/Aviacion.git projectname`
+* `git clone https://github.com/Carlosferrerhernandez/Autohernandez.git projectname`
 * `cd projectname`
 * `composer install`
 * `composer require softon/sweetalert`
@@ -32,7 +23,7 @@ This repo is implementaions of SENNOVA Regional Altántico (SENA).
 ## Credits 
 * Taylor Otwell (Creator of Laravel)
 * Carlos Ferrer
-* SENA (http://www.sena.edu.co/es-co/Paginas/default.aspx)
+* AUTOHERNANDEZ DE LA COSTA (https://www.autohernandezdelacosta.com.co/)
 * SENNOVA
 
 
