@@ -1,75 +1,114 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="description" content="AutoHernandez de la Costa SAS, empresa dedicada a ofrecer servicios con calidad de agencia para las diferentes marcas en diagnóstico, mantenimiento y reparación de vehículos">
+    <meta name="keywords" content="Autos,reparación,diesel,alineacion">
+    <meta name="author" content="Carlos Ferrer Hernandez">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="{{asset ('img/logo_autohernandez.png')}}" />
+    
+    <!-- SITE TITLE -->
+    <title>AutoHernandez de la Costa SAS</title>            
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="{{asset ('bootstrap/css/bootstrap.min.css')}}" >       
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900" rel="stylesheet" type="text/css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="{{asset ('fonts/font-awesome.min.css')}}">
+
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="{{asset ('css/magnific-popup.css')}}">         
+    <!-- component CSS -->  
+    <link rel="stylesheet" href="{{asset ('css/aos.css')}}">            
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="{{asset ('css/style.css')}}">  
+    
+    <!-- Style APP-->
+    <link rel="stylesheet" href="{{asset ('css/styleapp.css')}}"> 
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'AutoHernandez') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <!-- START NAVBAR -->
+        <div class="navbar navbar-default navbar-fixed-top menu-top">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="{{ url('/')}}" class="navbar-brand"><img id="logo" src="{{asset ('img/logo.png')}}" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="navbar-collapse collapse">
+                            <nav>
+                                <ul class="nav navbar-nav navbar-right scrollable-menu">
+                                    <li><a class="page-scroll" href=""></a></li>
+                                    <li><a class="page-scroll" href="#process">INICIO</a></li>
+                                </ul>
+                            </nav>
+                        </div>  
+                    </div>
+                </div> 
+            </div><!--- END CONTAINER -->
+        </div>  
+        <!-- END NAVBAR -->
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
-                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <main class="py-4">
+        <div class="content">
             @yield('content')
-        </main>
+        </div>
     </div>
 </body>
+    <!-- Click -->
+         <!-- <script type="text/javascript">document.oncontextmenu = function(){return false;}
+         </script> -->
+         <!-- Latest jQuery -->
+         <script src="{{asset ('js/jquery-1.12.4.min.js')}}"></script>
+         <!-- Latest compiled and minified Bootstrap -->
+         <script src="{{asset ('bootstrap/js/bootstrap.min.js')}}"></script>
+         <!-- modernizer JS -->     
+         <script src="{{asset ('js/modernizr-2.8.3.min.js')}}"></script>                                                                        
+         <!-- owl-carousel min js  -->
+         <script src="{{asset ('owlcarousel/js/owl.carousel.min.js')}}"></script>
+         <!-- magnific-popup js -->               
+         <script src="{{asset ('js/jquery.magnific-popup.min.js')}}"></script>          
+         <!-- jquery mixitup js -->   
+         <script src="{{asset ('js/jquery.mixitup.min.js')}}"></script> 
+         <!-- stellar js -->
+         <script src="{{asset ('js/jquery.stellar.min.js')}}"></script>     
+         <!-- scrolltopcontrol js -->
+         <script src="{{asset ('js/scrolltopcontrol.js')}}"></script>                                   
+         <!-- aos js -->
+         <script src="{{asset ('js/aos.js')}}"></script>
+         <!-- ripples js -->    
+         <!-- <script src="/js/ripples-min.js"></script> -->
+         <!-- switcher js -->
+         <script src="{{asset ('js/switcher.js')}}"></script>           
+         <!-- scripts js -->
+         <script src="{{asset ('js/scripts.js')}}"></script>
 </html>

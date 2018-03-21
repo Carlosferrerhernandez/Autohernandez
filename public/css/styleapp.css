@@ -1,0 +1,25 @@
+body{
+	background-color: #222;
+}
+
+.navbar-default{
+	background-color: #222;
+}
+
+.newsletter_section{
+	padding-top: 260px;
+}
+
+.input-group-btn{
+	padding-top: 3%;
+}
+
+/*.preloader {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999
+}*/
