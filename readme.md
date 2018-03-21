@@ -3,7 +3,7 @@ This repo is implementaions of AutoHernandez de la Costa (Barranquilla).
 
 ## Requerimientos
 * PHP >= 7.1.3
-* Laravel >= 5.5
+* Laravel >= 5.5.39
 * Composer
 * Git
 * MySQL

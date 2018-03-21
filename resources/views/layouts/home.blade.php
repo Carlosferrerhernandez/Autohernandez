@@ -9,7 +9,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="shortcut icon" href="{{asset ('img/logo_autohernandez.png')}}" />
 		<meta name="description" content="AutoHernandez de la Costa SAS, empresa dedicada a ofrecer servicios con calidad de agencia para las diferentes marcas en diagnóstico, mantenimiento y reparación de vehículos">
-  		<meta name="keywords" content="Autos,reparacion,diesel,alineacion">
+  		<meta name="keywords" content="Autos,reparación,diesel,alineacion">
   		<meta name="author" content="Carlos Ferrer Hernandez">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -79,6 +79,7 @@
 									<li><a class="page-scroll" href="#process">SERVICIOS</a></li>
 									<li><a class="page-scroll" href="#work">TRABAJOS</a></li>	
 									<li><a class="page-scroll" href="#pricing">PROMOCION</a></li>
+									<li><a class="page-scroll" href="#testimonial">CLIENTES</a></li>
 									<li><a class="page-scroll" href="#contact">CONTACTO</a></li>
 									<li><a class="page-scroll" href="{{('/')}}"><i class="fa fa-sign-in"></i></a></li>
 								</ul>
@@ -169,7 +170,7 @@
 						<div class="single_service">							
 							<i class="fa fa-cogs"></i> 
 							<h3>Reparación de sistemas electricos</h3>
-							<p>Diagnostico, programación y reparacion de modulos de control electronico y sistemas electricos</p>
+							<p>Diagnostico, programación y reparación de modulos de control electronico y sistemas electricos</p>
 							<ul>
 								<li><i class="fa fa-long-arrow-right"></i><strong>inspección del motor</strong></li>  
 								<li><i class="fa fa-long-arrow-right"></i><strong>Diagnostico</strong></li>
@@ -301,7 +302,7 @@
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-										<h4 class="modal-title">REPARACION</h4>
+										<h4 class="modal-title">REPARACIÓN</h4>
 									</div>
 									<div class="modal-body">
 										<img src="{{asset ('img/gallery/IMG_2541.JPG')}}" class="img-responsive" alt=""/>
@@ -321,7 +322,7 @@
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-										<h4 class="modal-title">INSTALACION</h4>
+										<h4 class="modal-title">INSTALACIÓN</h4>
 									</div>
 									<div class="modal-body">
 										<img src="{{asset ('img/gallery/IMG_2604.JPG')}}" class="img-responsive" alt=""/>
@@ -362,7 +363,7 @@
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-										<h4 class="modal-title">REPARACION</h4>
+										<h4 class="modal-title">REPARACIÓN</h4>
 									</div>
 									<div class="modal-body">
 										<img src="{{asset ('img/gallery/IMG_2607.JPG')}}" class="img-responsive" alt=""/>
@@ -548,7 +549,7 @@
 		<!-- END TESTIMONIALS -->
 		
 		<!-- START CONTACT -->
-		<section id="contact" class="contact_us section-padding">
+		<section id="contactanos" class="contact_us section-padding">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -589,12 +590,12 @@
 		<!-- END CONTACT -->
 		
 		<!-- START ADDRESS  -->
-		<section id="contacto" class="contact-address section-padding" style="background-image: url('img/bg/IMG_2613.JPG'); background-size:cover; background-position: center center;background-attachment:fixed;">
+		<section id="contact" class="contact-address section-padding" style="background-image: url('img/bg/IMG_2613.JPG'); background-size:cover; background-position: center center;background-attachment:fixed;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-offset-3 text-center col-xs-12 col-md-6">
 						<div class="address">
-							<h2>atencionalcliente@autoher<br>nandezdelacosta.com.co</h2>
+							<h3>atencionalcliente@auto<br>hernandezdelacosta.com.co</h3>
 							<h1>310-735-4058</h1>
 							<h1>301-398-3738</h1>
 							<h3>Avenida circunvalar <br>Carrera 28 No. 54 - 05</h3>
