@@ -80,6 +80,7 @@
 									<li><a class="page-scroll" href="#work">TRABAJOS</a></li>	
 									<li><a class="page-scroll" href="#pricing">PROMOCION</a></li>
 									<li><a class="page-scroll" href="#contact">CONTACTO</a></li>
+									<li><a class="page-scroll" href="{{('/')}}"><i class="fa fa-sign-in"></i></a></li>
 								</ul>
 							</nav>
 						</div>	
