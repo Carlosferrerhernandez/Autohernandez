@@ -66,14 +66,13 @@
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
                           </button>
-                          <a href="{{ url('/')}}" class="navbar-brand"><img id="logo" src="{{asset ('img/logo.png')}}" alt="logo"></a>
+                          {{-- <a href="{{ url('/')}}" class="navbar-brand"><img id="logo" src="{{asset ('img/logo.png')}}" alt="logo"></a> --}}
                       </div>
                   </div>
                   <div class="col-md-9">
                       <div class="navbar-collapse collapse">
                           <nav>
                               <ul class="nav navbar-nav navbar-right scrollable-menu">
-                                  <li><a class="page-scroll" href="#about"></a></li>
                                   <li><a class="page-scroll" href="{{ url('/')}}">INICIO</a></li>
                               </ul>
                           </nav>

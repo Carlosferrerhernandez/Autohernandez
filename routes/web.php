@@ -19,4 +19,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('app', function(){
+	return view('inicio');
+});
+
+
+Route::get('inicio', function () {
+	return view('inicio');
+	})->name('inicio');
+
+
 /*Route::get('mecanicos', 'MecanicoController@index')->name('mecanicos');*/
