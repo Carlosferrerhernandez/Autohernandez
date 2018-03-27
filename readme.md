@@ -24,7 +24,7 @@ This repo is implementaions of AutoHernandez de la Costa (Barranquilla).
 * Taylor Otwell (Creator of Laravel)
 * Carlos Ferrer
 * AUTOHERNANDEZ DE LA COSTA (https://www.autohernandezdelacosta.com.co/)
-* SENNOVA
+* DEV. CARLOS FERRER
 
 
 
